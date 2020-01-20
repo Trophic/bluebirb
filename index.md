@@ -11,9 +11,9 @@
 	</nav>
 <div>
 	<h1>Home</h1>
-	<p class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="kaixyang"><a class="LI-simple-link" href='https://au.linkedin.com/in/kaixyang?trk=profile-badge'>Kai Yang</a></p>
-	<p class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="trophic"><a class="LI-simple-link" href='https://au.linkedin.com/in/trophic?trk=profile-badge'>Rohan Carroll</a></p>
-	<p class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="vasiliki-adamidou"><a class="LI-simple-link" href='https://au.linkedin.com/in/vasiliki-adamidou?trk=profile-badge'>Vasiliki Adamidou</a></p>
+	<p class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="kaixyang"><a class="LI-simple-link" href='https://au.linkedin.com/in/kaixyang?trk=profile-badge'></a></p>
+	<p class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="trophic"><a class="LI-simple-link" href='https://au.linkedin.com/in/trophic?trk=profile-badge'></a></p>
+	<p class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="vasiliki-adamidou"><a class="LI-simple-link" href='https://au.linkedin.com/in/vasiliki-adamidou?trk=profile-badge'></a></p>
 </div>
 <footer>
 <nav>
