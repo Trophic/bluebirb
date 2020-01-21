@@ -1,28 +1,21 @@
-
-<nav>
-	<h3>
-    <a href=" / " >#Home</a>
-    <a href=" /blogs.html " >#Blogs</a>
-	</h3>
-</nav>
-<h1>Team Blue Birb</h1>
-
-<div>
-	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-	<div class="LI-profile-badge"  data-version="v1" data-size="small" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="kaixyang"><a class="LI-simple-link" href='https://au.linkedin.com/in/kaixyang?trk=profile-badge'></a></div>
-
-	<div class="LI-profile-badge"  data-version="v1" data-size="small" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="trophic"><a class="LI-simple-link" href='https://au.linkedin.com/in/trophic?trk=profile-badge'></a></div>
-
-	<div class="LI-profile-badge"  data-version="v1" data-size="small" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="vasiliki-adamidou"><a class="LI-simple-link" href='https://au.linkedin.com/in/vasiliki-adamidou?trk=profile-badge'></a></div>
-</div>
-
-<footer>
-	<nav>
-		<div>
-			<h4>
-				<a href=" /about.html " >	_ About</a>
-			</h4>
-		</div>
-	</nav>
-</footer>
+---
+layout: default
+title: Home
+category: Home
+---
+<h1>{{ page.title }}</h1>
+  {% for post in site.posts %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+			{% if post.excerpt %}
+				<a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+				<p><small>
+						{% for tag in post.tags %}
+						#<a href="/tags/{{ tag }}/">{{ tag }}</a>
+						{% endfor %}
+				</small></p>
+			{% endif %}
+			{% if forloop.rindex == 21 %}
+				{% break %}
+  		{% endif %}
+  {% endfor %}

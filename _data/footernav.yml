@@ -1,6 +1,6 @@
-- name: About
+- name: About us
   link: /about.html
+- name: Comics
+  link: /comics.html
 - name: Tags
   link: /tags.html
-- name: Secrets
-  link: /assets/secrets/spookstersonly.md

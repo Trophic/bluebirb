@@ -1,10 +1,6 @@
 - name: Home
   link: /
-- name: Comics
-  link: /comics.html
-- name: Projects
-  link: /projects.html
+- name: Contact us
+  link: /contact.html
 - name: Blogs
   link: /blogs.html
-- name: Projblogs
-  link: /projblogs.html
