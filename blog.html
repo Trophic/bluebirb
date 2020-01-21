@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blogs
+tag: blog
+---
+				<h1>#{{ page.title }}</h1>
+				{% for post in site.tags[page.tag] %}
+						<a href="{{ post.url }}">
+						<h3>{{ post.title }}</h3></a>
+						 <p>{{ post.date | date_to_string }}</p>
+						<p>{{ post.excerpt }}</p>
+						<p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+							<small>
+								{% for tag in post.tags %}
+									#<a href="/tags/{{ tag }}/">{{ tag }}</a>
+								{% endfor %}
+							</small>
+				{% endfor %}
+<!-- check out this blog for deets: christianspecht.de/2014/10/25/separate-pages-per-tag-category-with-jekyll-without-plugins/ -->

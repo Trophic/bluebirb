@@ -1,6 +1,2 @@
-- name: About us
-  link: /contact.html
-- name: Comics
-  link: /comics.html
 - name: Tags
   link: /tags.html

@@ -3,13 +3,9 @@ layout: default
 title: Comics
 tag: comics
 ---
-<div>
 <h1>{{ page.title }}</h1>
 	{% for post in site.tags[page.tag] %}
-  	<div>
 			<h2><a href="{{ post.url }}">{{ post.title }}</a><h2>
-  	</div>
-		<div>
 			{{ post.excerpt }}
 			{% if post.excerpt %}
 				<p><small>
@@ -18,12 +14,10 @@ tag: comics
 						{% endfor %}
 				</small></p>
 			{% endif %}
-		</div>
 			{% if forloop.rindex == 19 %}
 				{% break %}
   		{% endif %}
 	{% endfor %}
-</div>
 
 <h2><a href=/tags/comics/index.html>The rest of the #comics...</a></h2>
 <!-- check out this blog for deets: christianspecht.de/2014/10/25/separate-pages-per-tag-category-with-jekyll-without-plugins/ -->

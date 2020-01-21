@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "project blogs coming soon"
-tag: projects
+title: Project blog 1
+tag: blog
 date: 2020-01-21
 ---
 #### ooo projects!
