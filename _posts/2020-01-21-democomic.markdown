@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Demo Comic #1"
+title: "Demo Comic 1"
 tag: [comics]
 date: 2020-01-21
 ---
