@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Comics
+  link: /comics.html
+- name: Projects
+  link: /projects.html
+- name: Blogs
+  link: /blogs.html
+- name: Projblogs
+  link: /projblogs.html

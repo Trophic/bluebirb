@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	{% include googletracking.html %}
+	<meta charset="utf-8">
+	<!-- charset declaration is important if you use a language other than english but also helps searchability-->
+	<!-- test 2 = do not goof around with the viewport stuff -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="16x16" />
+	<!-- discover why I have two stylesheets -->
+	<link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- but why? -->
+	<!-- attempt to understand this -->
+	<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+	<!-- but why? -->
+	<title>{{site.title}}</title>
+	<!-- """discover""" what %seo% is all about -->
+	<!-- its a jekyll thing is my first guess -->
+	<!-- but why? -->
+	{% seo %}
+	<meta property='og:image' content="/assets/img/siteog.png"/>
+</head>
+<body>
+	{% include gtag.html %}
+	<header>
+		{% include header.html %}
+	</header>
+	<section>
+		{% include navigation.html %}
+		<div>
+		{{content}}
+		</div>
+		<div>
+			<footer>
+				{% include footer.html %}
+			</footer>
+		</div>
+	</section>
+</body>
+</html>
