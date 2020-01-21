@@ -541,15 +541,3 @@ footer {
     padding: 0.4in;
     font-size: 12pt;
     color: #444; } }
-.LI-profile-badge {
-  float: left; }
-
-header {
-  background-color: #303336;
-  color: #FDFDFB;
-  width: 150px; }
-
-section {
-  width: 850px;
-  float: right;
-  padding-bottom: 50px; }
